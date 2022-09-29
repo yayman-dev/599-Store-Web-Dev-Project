@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Suits in Class</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <script type="text/javascript" src="Fetch.js"></script> -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <script src="temp.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <!-- Nav Bar -->
+        <div class="nav container">
+            <!-- <a href="#" class=logo>699 Store</a> -->
+            <img src="/Screenshot 2022-09-29 at 1.06.24 PM.png" alt="#">
+            <!-- search bar -->
+            <div class="search-bar">
+                <input type="text" placeholder="Search" id="inp" class="hide">
+                <i class='bx bx-search-alt search-icon' style='color:rgb(255, 255, 255)'></i>
+            </div>
+            <!-- cart icon -->
+            <i class='bx bx-shopping-bag' id="cart-icon"></i>
+            <!-- cart -->
+            <div class="cart">
+                <h2 class="cart-title">Your Cart</h2>
+                <!-- content -->
+                <div class="cart-content">
+                </div>
+                <!-- total -->
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+                <!-- Buy Button -->
+                <button type="button" class="btn-buy">Buy Now</button>
+                <!-- Cart close -->
+                <div class="cart-close"></div>
+                <i class='bx bx-x' id="close-cart"></i>
+            </div>
+        </div>
+    </header>
+    <!-- Filter Buttons -->
+    <section class="filter">
+        <div id="buttons"></div>
+        <button class="button-value" onclick="filterProduct('all')">All</button>
+        <button class="button-value smartphones" onclick="filterProduct('smartphones')">Smartphones</button>
+        <button class="button-value" onclick="filterProduct('laptops')">Laptops</button>
+        <button class="button-value" onclick="filterProduct('fragrances')">Fragrances</button>
+        <button class="button-value" onclick="filterProduct('skincare')">Skincare</button>
+        <button class="button-value" onclick="filterProduct('groceries')">Groceries</button>
+        <button class="button-value" onclick="filterProduct('decoration')">Decoration</button>
+        </div>
+    </section>
+    <!-- Shop -->
+    <section class="shop container">
+        <h2 class="section-title">Shop Products</h2>
+        <img src="/Screenshot 2022-09-29 at 12.55.36 PM.png" alt="#">
+        <!-- Content -->
+        <div class="shop-content" id="content">
+            <!-- box1 -->
+            <!-- <div class="product-box">
+                <img src="product1.jpg" alt="" class="product-img">
+                <h2 class="product-title">NIKE SHIRT</h2>
+                <span class="price">$25</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div> -->
+        </div>
+    </section>
+    <h2 class="section-title">Upcoming Sales </h2>
+    <div class="sale"> 
+    <img src="/Screenshot 2022-09-29 at 12.15.15 PM.png">
+    <img src="/Screenshot 2022-09-29 at 12.44.00 PM.png" alt="#">
+<img src="/Screenshot 2022-09-29 at 12.42.19 PM.png" alt="#">
+<img src="/Screenshot 2022-09-29 at 12.42.40 PM.png" alt="#">
+    </div>
+</body>
+<script type="text/javascript" src="script.js"></script>
+
+</html>
